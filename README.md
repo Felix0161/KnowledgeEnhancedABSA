@@ -25,8 +25,7 @@ The data for the semEval2015 and semEval2016 tasks, as well as the ontology are 
   - NOTE: the data sets are in general too large for creating all the embeddings at once. In the config file you can set a start and an end to be able to run it in batches. We found that splitting the semEval2016 data set in four (e.g., 0-850,850-1700,1700-2100, and 1700-2530 sentences) and the semEval2015 in three (e.g., 0-800, 800-1300, 1300-1880 sentences) suffices.
 - Run the main_hyper file for hyperparameter optimization
 - Run the main file to obtain the accuracy
- - The results in this paper are obtained by running the main for 100 iterations for number of hops H = 0,1,2; for the normal model, the model without softpositions, and the model without a visibility matrix
-
+  - The results in this paper are obtained by running the main for 100 iterations for number of hops H = 0,1,2; for the normal model, the model without softpositions, and the model without a visibility matrix
 - Run the main_cross file for k-fold cross validation
 
 # Related Work
